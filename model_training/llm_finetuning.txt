@@ -1,0 +1,14 @@
+chat_template: none  
+distributed_backend: ddp  
+mixed_precision: fp16  
+optimizer: adamw_torch  
+peft_lora: true  
+scheduler: linear  
+unsloth: false  
+batch_size: 12  
+block_size: 1024  
+epochs: 3  
+gradient_accumulation: 3  
+learning_rate: 0.0000155
+model_max_length: 2048  
+target_modules: all-linear
